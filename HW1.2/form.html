@@ -2,59 +2,70 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Формы</title>
 </head>
 <body>
-	<header></header>
+	<header>
+		<h1>Урок "Формы": теги и их атрибуты.</h1>
+		<h2>Расскажите немного о себе...</h2>
+		<p>Попробуй  создать аналогичну  фотрму  Для  целей  демонстрации вполне  подойдут и вымешленные.</p>
+	</header>
 	<main>
 		<form>
 			<fieldset>
-				<legend>Коротко о себе</legend>
+				<legend><b>Коротко о себе</b></legend>
 				<p><lebel>Имя: <input type="text"></lebel></p>
 				<p><lebel>Фамилия: <input type="text"></lebel></p>
 				<p>Пол: <label><input type="radio"> мужской</label>
 						<label><input type="radio"> женский</label></p>
 				<p><label>Возраст: <input type="number" min="5" max="100"></label> лет</p>
-			</fieldset>
+			</fieldset><br>
 			<fieldset>
-				<legend>Подробнее о себе</legend>
+				<legend><b>Подробнее о себе</b></legend>
 				<label><input type="radio"> Молодой человек</label><br>
 				<label><input type="radio"> Девушка</label><br>
 				<label><input type="text"> Дата рождения</label><br>
 				<label><input type="text"> Симейное положение</label><br>
 				<label><input type="text"> Социальный статус</label><br>
 				<label><input type="text"> Местожтельство</label>
-				<h3>Что вы обычно делаете на  выходных:</h3>
+				<p><b>Что вы обычно делаете на  выходных:</b></p>
 				<label><input type="checkbox"> Cплю</label><br>
 				<label><input type="checkbox"> Гуляю с друзьями</label><br>
 				<label><input type="checkbox"> Хожу на рыбалку</label><br>
 				<label><input type="checkbox"> Играю в игры</label><br>
-				<h3>Росказать о форматах в книге, посвящанной HTML:</h3>
+				<p><b>Росказать о форматах в книге, посвящанной HTML:</b></p>
 				<select>
 					<option>Site frequency</option>
 					<option>2</option>
 					<option>3</option>
 				</select>
-				<h3>Сколько книг  вы прочитали  за  всю жизнь:</h3>
+				<p><b>Сколько книг  вы прочитали  за  всю жизнь</b></p>
 				<p><label><input type="radio"> 0-10</label><br>
 					<label><input type="radio"> 11-20</label><br>
 					<label><input type="radio">21-50</label><br>
 				<label><input type="radio"></label>50+<br></p>
 				<label><b>Ваши комментарии</b><br>
-				<textarea></textarea></label>
+				<textarea cols="50" rows="10"></textarea></label>
 				<!--radio многовыбор-->
-
-			</fieldset>
+				<p><select size="3">
+					<option>Первая позиция</option>
+					<option>Вторая позиция</option>
+					<option>Третья позиция</option>
+					<option>Четвертая позиция</option>
+					<option>Пятая позиция</option>
+				</select></p>
+			</fieldset><br>
 			<fieldset>
-				<legend>И в заключении</legend>
+				<legend><b>И в заключении</b></legend>
 				<p><input type="text" placeholder="Это поле было введено до вас"></p>
 				<p><b>Email</b><br>
 				<input type="email"></p>
-				<h3>Хотите подписаться на  самую модную рассылку спама?</h3>
+				<p><b>Хотите подписаться на  самую модную рассылку спама?</b><br>
+				<sup><i>Выберете категории</i></sup></p>
 				<label><input type="checkbox"> Обрудование</label><br>
 				<label><input type="checkbox"> Как приготовить обеды</label><br>
 				<label><input type="checkbox"> Заработай милион за два дня!</label>
-				<h3>На сколько сложная задача</h3>
+				<p><b>На сколько сложная задача</b></p>
 				<p><label><input type="radio"> Совсем нет</label><br>
 					<label><input type="radio"> Так себе</label><br>
 				<label><input type="radio"> Еле справились</label></p>
